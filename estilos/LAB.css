@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+
+.cabecalho {
+    position: relative;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .menu_hamburguer {
+       display: none;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-flow: column;
+    }
+
+    #id__logo{order:1;}
+
+    #lista__header{order:2;}
+
+    .navegacao__lista {
+        display: flex;
+        position: relative;
+        padding: 3em 0em 3em 6em;
+        align-items: center;
+    }
+
+    .navegacao__abas {
+        padding: 0.5em;
+    }
+
+    .abas__ajustadas {
+        margin-right: 3.5em;
+    }
+
+    .navegacao__abas a{
+        font-size: 1.5em;
+    }
+
+    .navegacao__abas a:hover{
+        color: #19bd22;
+        font-size: 1.6em;
+    }
+
+    .logo {
+        max-width: 20%;
+        height: 50%;
+    }
+
+    .banner {
+        width: 100%;
+        height: 40vw;
+    }
+
+    .titulo {
+        padding-top: 4em;
+        font-size: 4em;
+    }
+
+    .subtitulo {
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
+    .botao__home {
+        width: 25%;
+        margin-left: 38em;
+    }
+
+    .imagem {
+        width: auto;
+        height: 40vw;
+    }
+
+    .subtitulo__conteudo {
+        margin-top: 1em;
+        padding-left: 5.5em;
+        padding-bottom: 1em;
+    }
+
+    .rodape {
+        margin-top: 3em;
+    }
+
+    .imagem__solucao {
+        width: 30%;
+        padding: 2em 0 2em 55em;
+    }
+
+   
+}
+
+
+
+
+
+/* CSS PAGINA PADRÃO PARA OS LABS */
+
+.lab {
+    text-align: center;
+  }
+  
+  .titulo_lab {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0 auto;
+  }
+  
+  .page-specific-audio {
+    position: fixed;
+    top: 5em;
+    right: 0;
+  }
+  
+  /*CSS LAB */
+
+  .intro {
+    text-align: left;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+
+  }
+  
+  .texto_padrao {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 20px; /* Adjust the value as needed */
+    margin-right: 25px; /* Adjust the value as needed */
+    font-family: Montserrat;
+    font-size: 18px;
+    position: relative;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+
+.video-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.texto_padrao1 {
+    text-align: left;
+    margin-left: 20px; /* Adjust the value as needed */
+    margin-right: 25px; /* Adjust the value as needed */
+    font-family: Montserrat;
+    font-size: 18px;
+    position: relative;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.bold-letter {
+    font-weight: bold;
+}
+
+ 
+    .texto_padrao::first-letter {
+        position: absolute;
+        margin-left: 20px;
+      }
+    
+      .texto_padrao1::first-letter {
+        position: absolute;
+        margin-left: 20px;
+      }
+ul {
+  list-style-type: disc;
+}
+      
+.subtitulo_lab {
+     text-align: left;
+     margin-top: 50px;
+     font-family: Montserrat;
+    font-weight: bold;
+     font-size: 25px;
+     margin-top: 15px;
+    margin-left: 20px; /* Adjust the value as needed */
+    margin-right: 25px;
+    margin-bottom: 5px;
+    
+      }     
+      
+
+.subtitulo_lab2 {
+     text-align: left;
+     margin-top: 25px;
+     font-family: Montserrat;
+    font-weight: bold;
+     font-size: 22px;
+     margin-left: 20px; /* Adjust the value as needed */
+    margin-bottom: 5x;
+    
+      }     
+    
+.subtitulo_lab3 {
+     text-align: left;
+     margin-top: 35px;
+     font-family: Montserrat;
+    font-weight: bold;
+     font-size: 20px;
+     margin-top: 15px;
+     margin-left: 20px; /* Adjust the value as needed */
+     margin-bottom: 10px;
+ 
+      }   
+      
+      .subtitulo_lab4 {
+        text-align: left;
+        margin-top: 25px;
+        font-family: Montserrat;
+       font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-left: 20px; /* Adjust the value as needed */
+    
+    
+         }   
+
+      .home-button {
+        background-color: green;
+        font-family: Montserrat;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 15px;
+        float: right;
+      }
+ 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap if the row is too long */
+    gap: 20px; /* Space between each image container */
+    justify-content: center; /* Center images in the row */
+}
+
+.image-container {
+    text-align: center;
+    width: 600px; /* Keeps each container aligned with the image width */
+}
+
+.caption {
+    font-size: 16px;
+    color: #555; /* Adjust color as needed */
+    margin-top: 8px;
+    font-weight: bold; /* Makes the caption text bold */
+    font-family: Montserrat;
+}
